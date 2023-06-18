@@ -1,0 +1,3 @@
+/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pioasm/CMakeFiles/pioasm.dir
+/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pioasm/CMakeFiles/edit_cache.dir
+/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pioasm/CMakeFiles/rebuild_cache.dir
