@@ -1388,9 +1388,9 @@ Discarded input sections
  .comment       0x0000000000000000       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccytvAtZ.o
- .data          0x0000000000000000        0x0 /tmp/ccytvAtZ.o
- .bss           0x0000000000000000        0x0 /tmp/ccytvAtZ.o
+ .text          0x0000000000000000        0x0 /tmp/ccTy3zlQ.o
+ .data          0x0000000000000000        0x0 /tmp/ccTy3zlQ.o
+ .bss           0x0000000000000000        0x0 /tmp/ccTy3zlQ.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1577,7 +1577,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccytvAtZ.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccTy3zlQ.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1658,643 +1658,643 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000010000810       0x44 CMakeFiles/EngineController.dir/EngineController.c.obj
                 0x0000000010000810                sensorInterruptHandler
  .text.uart_task2_receive
-                0x0000000010000854       0xfc CMakeFiles/EngineController.dir/EngineController.c.obj
+                0x0000000010000854      0x100 CMakeFiles/EngineController.dir/EngineController.c.obj
                 0x0000000010000854                uart_task2_receive
  .text.uart_task2_send
-                0x0000000010000950       0xf4 CMakeFiles/EngineController.dir/EngineController.c.obj
-                0x0000000010000950                uart_task2_send
+                0x0000000010000954       0xf4 CMakeFiles/EngineController.dir/EngineController.c.obj
+                0x0000000010000954                uart_task2_send
  .text.initUART2
-                0x0000000010000a44       0x50 CMakeFiles/EngineController.dir/EngineController.c.obj
-                0x0000000010000a44                initUART2
+                0x0000000010000a48       0x50 CMakeFiles/EngineController.dir/EngineController.c.obj
+                0x0000000010000a48                initUART2
  .text.startup.main
-                0x0000000010000a94      0x188 CMakeFiles/EngineController.dir/EngineController.c.obj
-                0x0000000010000a94                main
+                0x0000000010000a98      0x188 CMakeFiles/EngineController.dir/EngineController.c.obj
+                0x0000000010000a98                main
  .text.gpio_default_irq_handler
-                0x0000000010000c1c      0x248 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000c20      0x248 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_function
-                0x0000000010000e64       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000e64                gpio_set_function
+                0x0000000010000e68       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000e68                gpio_set_function
  .text.gpio_set_irq_enabled_with_callback
-                0x0000000010000e94       0xb0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000e94                gpio_set_irq_enabled_with_callback
+                0x0000000010000e98       0xb0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000e98                gpio_set_irq_enabled_with_callback
  .text.gpio_init
-                0x0000000010000f44       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000f44                gpio_init
+                0x0000000010000f48       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000f48                gpio_init
  .text.running_on_fpga
-                0x0000000010000f80       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000f80                running_on_fpga
+                0x0000000010000f84       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000f84                running_on_fpga
  .text.hw_claim_or_assert
-                0x0000000010000f90       0x44 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000f90                hw_claim_or_assert
+                0x0000000010000f94       0x44 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000f94                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x0000000010000fd4       0x9c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000fd4                hw_claim_unused_from_range
+                0x0000000010000fd8       0x9c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000fd8                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x0000000010001070       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010001070                spin_locks_reset
+                0x0000000010001074       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010001074                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x000000001000108c       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x000000001000108c                next_striped_spin_lock_num
+                0x0000000010001090       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010001090                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x00000000100010a4       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100010a4                spin_lock_claim_unused
+                0x00000000100010a8       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100010a8                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x00000000100010c4       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100010c4                irq_set_enabled
+                0x00000000100010c8       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100010c8                irq_set_enabled
  .text.irq_set_pending
-                0x00000000100010e8       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100010e8                irq_set_pending
+                0x00000000100010ec       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100010ec                irq_set_pending
  .text.irq_has_shared_handler
-                0x00000000100010f8       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100010f8                irq_has_shared_handler
+                0x00000000100010fc       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100010fc                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x0000000010001124       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001124                irq_get_vtable_handler
+                0x0000000010001128       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001128                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010001134       0x54 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001134                irq_set_exclusive_handler
+                0x0000000010001138       0x54 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001138                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x0000000010001188      0x1e8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001188                irq_add_shared_handler
+                0x000000001000118c      0x1e8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000118c                irq_add_shared_handler
  .text.irq_remove_handler
-                0x0000000010001370      0x1b0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001370                irq_remove_handler
+                0x0000000010001374      0x1b0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001374                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010001520       0xb4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001520                irq_add_tail_to_free_list
+                0x0000000010001524       0xb4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001524                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x00000000100015d4       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100015d4                irq_init_priorities
+                0x00000000100015d8       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100015d8                irq_init_priorities
  .text.user_irq_claim_unused
-                0x00000000100015f8       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100015f8                user_irq_claim_unused
+                0x00000000100015fc       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100015fc                user_irq_claim_unused
  .text.lock_init
-                0x0000000010001620       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010001620                lock_init
+                0x0000000010001624       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010001624                lock_init
  .text.mutex_init
-                0x0000000010001630       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001630                mutex_init
+                0x0000000010001634       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001634                mutex_init
  .text.recursive_mutex_init
-                0x000000001000164c       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000001000164c                recursive_mutex_init
+                0x0000000010001650       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001650                recursive_mutex_init
  .text.critical_section_init
-                0x000000001000166c       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x000000001000166c                critical_section_init
+                0x0000000010001670       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010001670                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x000000001000168c       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x000000001000168c                critical_section_init_with_lock_num
+                0x0000000010001690       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010001690                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x00000000100016a0       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100016a0                timer_pool_entry_comparator
+                0x00000000100016a4       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100016a4                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x00000000100016d4       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100016d8       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x00000000100016f8      0x100 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100016fc      0x100 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x00000000100017f8      0x1b8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100017fc      0x1b8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x00000000100019b0       0x6c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100019b0                alarm_pool_init_default
+                0x00000000100019b4       0x6c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100019b4                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010001a1c        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001a1c                alarm_pool_get_default
+                0x0000000010001a20        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001a20                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010001a24      0x17c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001a24                alarm_pool_add_alarm_at
+                0x0000000010001a28      0x17c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001a28                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x0000000010001ba0       0x74 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001ba0                alarm_pool_cancel_alarm
+                0x0000000010001ba4       0x74 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001ba4                alarm_pool_cancel_alarm
  .text.alarm_pool_core_num
-                0x0000000010001c14        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001c14                alarm_pool_core_num
+                0x0000000010001c18        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001c18                alarm_pool_core_num
  .text.best_effort_wfe_or_timeout
-                0x0000000010001c18       0x78 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001c18                best_effort_wfe_or_timeout
+                0x0000000010001c1c       0x78 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001c1c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010001c90       0xbc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001c94       0xbc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010001d4c       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001d4c                hardware_alarm_claim
+                0x0000000010001d50       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001d50                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010001d64       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001d64                time_us_64
+                0x0000000010001d68       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001d68                time_us_64
  .text.hardware_alarm_set_callback
-                0x0000000010001d78       0x8c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001d78                hardware_alarm_set_callback
+                0x0000000010001d7c       0x8c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001d7c                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010001e04       0xe0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001e04                hardware_alarm_set_target
+                0x0000000010001e08       0xe0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001e08                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010001ee4       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001ee4                hardware_alarm_cancel
+                0x0000000010001ee8       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001ee8                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x0000000010001f20       0x68 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001f24       0x68 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010001f88       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001f88                ph_post_alloc_init
+                0x0000000010001f8c       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001f8c                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010001fc4       0x90 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001fc4                ph_merge_two_pass
+                0x0000000010001fc8       0x90 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001fc8                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x0000000010002054      0x100 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010002058      0x100 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x0000000010002154      0x104 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010002154                ph_remove_head
+                0x0000000010002158      0x104 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010002158                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000010002258       0x7c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010002258                ph_remove_and_free_node
+                0x000000001000225c       0x7c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000225c                ph_remove_and_free_node
  .text.uart_init
-                0x00000000100022d4       0xe0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x00000000100022d4                uart_init
+                0x00000000100022d8       0xe0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x00000000100022d8                uart_init
  .text.clocks_init
-                0x00000000100023b4      0x2bc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100023b4                clocks_init
+                0x00000000100023b8      0x2bc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100023b8                clocks_init
  .text.clock_get_hz
-                0x0000000010002670        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010002670                clock_get_hz
+                0x0000000010002674        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010002674                clock_get_hz
  .text.pll_init
-                0x000000001000267c       0xb0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x000000001000267c                pll_init
+                0x0000000010002680       0xb0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010002680                pll_init
  .text.watchdog_start_tick
-                0x000000001000272c       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x000000001000272c                watchdog_start_tick
+                0x0000000010002730       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010002730                watchdog_start_tick
  .text.watchdog_reboot
-                0x000000001000273c       0x98 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x000000001000273c                watchdog_reboot
+                0x0000000010002740       0x98 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010002740                watchdog_reboot
  .text.xosc_init
-                0x00000000100027d4       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x00000000100027d4                xosc_init
+                0x00000000100027d8       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00000000100027d8                xosc_init
  .text.runtime_init
-                0x00000000100027fc       0xf0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100027fc                runtime_init
- .text._exit    0x00000000100028ec        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100028ec                _exit
- .text._sbrk    0x00000000100028f0       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100028f0                _sbrk
- .text.exit     0x0000000010002924        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002924                exit
- .text.panic    0x000000001000292c       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000001000292c                panic
+                0x0000000010002800       0xf0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002800                runtime_init
+ .text._exit    0x00000000100028f0        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100028f0                _exit
+ .text._sbrk    0x00000000100028f4       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100028f4                _sbrk
+ .text.exit     0x0000000010002928        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002928                exit
+ .text.panic    0x0000000010002930       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002930                panic
  .text.panic_unsupported
-                0x000000001000295c        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000001000295c                panic_unsupported
+                0x0000000010002960        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002960                panic_unsupported
  .text.hard_assertion_failure
-                0x0000000010002968        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002968                hard_assertion_failure
+                0x000000001000296c        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000296c                hard_assertion_failure
  .text._out_buffer
-                0x0000000010002974        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002978        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x000000001000297c        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002980        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010002980       0x9c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002984       0x9c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010002a1c      0x1cc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002a20      0x1cc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x0000000010002be8       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002bec       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000010002bf8       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x0000000010002c08      0x44c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000010003054      0x398 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002bfc       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000010002c0c      0x44c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010003058      0x398 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x00000000100033ec      0xb04 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100033f0      0xb04 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
-                0x0000000010003ef0       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003ef0                __wrap_sprintf
+                0x0000000010003ef4       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003ef4                __wrap_sprintf
  .text.vfctprintf
-                0x0000000010003f18       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003f18                vfctprintf
+                0x0000000010003f1c       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003f1c                vfctprintf
  .text.weak_raw_vprintf
-                0x0000000010003f38       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003f38                weak_raw_vprintf
- .text          0x0000000010003f68       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010003f3c       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003f3c                weak_raw_vprintf
+ .text          0x0000000010003f6c       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000010003f78       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003f78                rom_func_lookup
+                0x0000000010003f7c       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003f7c                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000010003f88       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003f88                rom_data_lookup
+                0x0000000010003f8c       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003f8c                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010003f98       0x44 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003f98                rom_funcs_lookup
+                0x0000000010003f9c       0x44 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003f9c                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x0000000010003fdc       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003fdc                __wrap___aeabi_idivmod
-                0x0000000010003fdc                divmod_s32s32
-                0x0000000010003fdc                div_s32s32
-                0x0000000010003fdc                __wrap___aeabi_idiv
-                0x0000000010003fe4                divmod_s32s32_unsafe
-                0x0000000010004010                divmod_s32s32_savestate
+                0x0000000010003fe0       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003fe0                __wrap___aeabi_idivmod
+                0x0000000010003fe0                divmod_s32s32
+                0x0000000010003fe0                div_s32s32
+                0x0000000010003fe0                __wrap___aeabi_idiv
+                0x0000000010003fe8                divmod_s32s32_unsafe
+                0x0000000010004014                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x000000001000402c       0x4c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x000000001000402c                __wrap___aeabi_uidiv
-                0x000000001000402c                __wrap___aeabi_uidivmod
-                0x000000001000402c                div_u32u32
-                0x000000001000402c                divmod_u32u32
-                0x0000000010004034                divmod_u32u32_unsafe
-                0x000000001000405c                divmod_u32u32_savestate
+                0x0000000010004030       0x4c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010004030                __wrap___aeabi_uidiv
+                0x0000000010004030                __wrap___aeabi_uidivmod
+                0x0000000010004030                div_u32u32
+                0x0000000010004030                divmod_u32u32
+                0x0000000010004038                divmod_u32u32_unsafe
+                0x0000000010004060                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010004078      0x424 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010004078                div_s64s64
-                0x0000000010004078                divmod_s64s64
-                0x0000000010004078                __wrap___aeabi_ldivmod
-                0x00000000100040a8                div_u64u64
-                0x00000000100040a8                divmod_u64u64
-                0x00000000100040a8                __wrap___aeabi_uldivmod
-                0x00000000100040b8                divmod_u64u64_savestate
-                0x00000000100040d8                divmod_s64s64_unsafe
-                0x0000000010004160                divmod_u64u64_unsafe
+                0x000000001000407c      0x424 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000407c                div_s64s64
+                0x000000001000407c                divmod_s64s64
+                0x000000001000407c                __wrap___aeabi_ldivmod
+                0x00000000100040ac                div_u64u64
+                0x00000000100040ac                divmod_u64u64
+                0x00000000100040ac                __wrap___aeabi_uldivmod
+                0x00000000100040bc                divmod_u64u64_savestate
+                0x00000000100040dc                divmod_s64s64_unsafe
+                0x0000000010004164                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x000000001000449c       0x80 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000449c                __wrap___aeabi_drsub
-                0x00000000100044a2                __wrap___aeabi_dsub
-                0x00000000100044b4                __wrap___aeabi_dadd
-                0x00000000100044c6                __wrap___aeabi_ddiv
-                0x0000000010004502                __wrap___aeabi_dmul
+                0x00000000100044a0       0x80 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100044a0                __wrap___aeabi_drsub
+                0x00000000100044a6                __wrap___aeabi_dsub
+                0x00000000100044b8                __wrap___aeabi_dadd
+                0x00000000100044ca                __wrap___aeabi_ddiv
+                0x0000000010004506                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x000000001000451c       0x6c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000451c                __wrap___aeabi_cdrcmple
-                0x000000001000452c                __wrap___aeabi_cdcmple
-                0x000000001000452c                __wrap___aeabi_cdcmpeq
+                0x0000000010004520       0x6c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004520                __wrap___aeabi_cdrcmple
+                0x0000000010004530                __wrap___aeabi_cdcmple
+                0x0000000010004530                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010004588        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004588                __wrap___aeabi_dcmplt
+                0x000000001000458c        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000458c                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010004594       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004594                __wrap___aeabi_dcmple
+                0x0000000010004598       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004598                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x00000000100045a4       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100045a4                __wrap___aeabi_dcmpge
+                0x00000000100045a8       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100045a8                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x00000000100045b4        0xa CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100045b4                __wrap___aeabi_dcmpgt
+                0x00000000100045b8        0xa CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100045b8                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x00000000100045be       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100045be                __wrap___aeabi_dcmpun
- *fill*         0x00000000100045da        0x2 
+                0x00000000100045c2       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100045c2                __wrap___aeabi_dcmpun
+ *fill*         0x00000000100045de        0x2 
  .text.__wrap___aeabi_i2d
-                0x00000000100045dc       0x38 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100045dc                __wrap___aeabi_ui2d
-                0x00000000100045e4                __wrap___aeabi_i2d
+                0x00000000100045e0       0x38 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100045e0                __wrap___aeabi_ui2d
+                0x00000000100045e8                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010004614       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004614                __wrap___aeabi_d2iz
-                0x0000000010004614                double2int_z
+                0x0000000010004618       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004618                __wrap___aeabi_d2iz
+                0x0000000010004618                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x000000001000465c       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000465c                double2uint
-                0x000000001000465c                __wrap___aeabi_d2uiz
+                0x0000000010004660       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004660                double2uint
+                0x0000000010004660                __wrap___aeabi_d2uiz
  .text.__wrap___aeabi_d2f
-                0x0000000010004674       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004674                __wrap___aeabi_d2f
+                0x0000000010004678       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004678                __wrap___aeabi_d2f
  .text.__aeabi_double_init
-                0x000000001000468c       0x94 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x000000001000468c                __aeabi_double_init
+                0x0000000010004690       0x94 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010004690                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010004720       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004720                double_table_shim_on_use_helper
+                0x0000000010004724       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004724                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x000000001000474c       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x000000001000474c                drsub_shim
-                0x0000000010004752                dsub_shim
+                0x0000000010004750       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004750                drsub_shim
+                0x0000000010004756                dsub_shim
  .text.dadd_shim
-                0x000000001000475c      0x15c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x000000001000475c                dadd_shim
+                0x0000000010004760      0x15c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004760                dadd_shim
  .text.dmul_shim
-                0x00000000100048b8      0x15c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100048b8                dmul_shim
+                0x00000000100048bc      0x15c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100048bc                dmul_shim
  .text.ddiv_shim
-                0x0000000010004a14      0x1b0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004a14                ddiv_shim
+                0x0000000010004a18      0x1b0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004a18                ddiv_shim
  .text.double2uint_shim
-                0x0000000010004bc4        0xe CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004bc4                double2uint_shim
-                0x0000000010004bc6                double2ufix_shim
- *fill*         0x0000000010004bd2        0x2 
+                0x0000000010004bc8        0xe CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004bc8                double2uint_shim
+                0x0000000010004bca                double2ufix_shim
+ *fill*         0x0000000010004bd6        0x2 
  .text.double2uint64_shim
-                0x0000000010004bd4       0x70 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004bd4                double2uint64_shim
-                0x0000000010004bd6                double2ufix64_shim
-                0x0000000010004bf6                d2fix_a
+                0x0000000010004bd8       0x70 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004bd8                double2uint64_shim
+                0x0000000010004bda                double2ufix64_shim
+                0x0000000010004bfa                d2fix_a
  .text.double2float_shim
-                0x0000000010004c44       0x5c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004c44                double2float_shim
+                0x0000000010004c48       0x5c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004c48                double2float_shim
  .text.dunpacks
-                0x0000000010004ca0       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004ca0                dunpacks
+                0x0000000010004ca4       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004ca4                dunpacks
  .text.__aeabi_lmul
-                0x0000000010004cdc       0x32 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010004cdc                __wrap___aeabi_lmul
- *fill*         0x0000000010004d0e        0x2 
+                0x0000000010004ce0       0x32 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010004ce0                __wrap___aeabi_lmul
+ *fill*         0x0000000010004d12        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x0000000010004d10       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004d10                __wrap___aeabi_frsub
-                0x0000000010004d16                __wrap___aeabi_fsub
-                0x0000000010004d1c                __wrap___aeabi_fadd
-                0x0000000010004d22                __wrap___aeabi_fdiv
-                0x0000000010004d4a                __wrap___aeabi_fmul
+                0x0000000010004d14       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004d14                __wrap___aeabi_frsub
+                0x0000000010004d1a                __wrap___aeabi_fsub
+                0x0000000010004d20                __wrap___aeabi_fadd
+                0x0000000010004d26                __wrap___aeabi_fdiv
+                0x0000000010004d4e                __wrap___aeabi_fmul
  .text.__wrap___aeabi_cfcmple
-                0x0000000010004d58       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004d58                __wrap___aeabi_cfrcmple
-                0x0000000010004d64                __wrap___aeabi_cfcmpeq
-                0x0000000010004d64                __wrap___aeabi_cfcmple
+                0x0000000010004d5c       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004d5c                __wrap___aeabi_cfrcmple
+                0x0000000010004d68                __wrap___aeabi_cfcmpeq
+                0x0000000010004d68                __wrap___aeabi_cfcmple
  .text.__wrap___aeabi_fcmplt
-                0x0000000010004da8        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004da8                __wrap___aeabi_fcmplt
+                0x0000000010004dac        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004dac                __wrap___aeabi_fcmplt
  .text.__wrap___aeabi_fcmpge
-                0x0000000010004db4       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004db4                __wrap___aeabi_fcmpge
+                0x0000000010004db8       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004db8                __wrap___aeabi_fcmpge
  .text.__wrap___aeabi_fcmpgt
-                0x0000000010004dc4        0xa CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004dc4                __wrap___aeabi_fcmpgt
+                0x0000000010004dc8        0xa CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004dc8                __wrap___aeabi_fcmpgt
  .text.__wrap___aeabi_f2iz
-                0x0000000010004dce       0x4e CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004dce                __wrap___aeabi_f2iz
-                0x0000000010004dce                float2int_z
+                0x0000000010004dd2       0x4e CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004dd2                __wrap___aeabi_f2iz
+                0x0000000010004dd2                float2int_z
  .text.float2int
-                0x0000000010004e1c       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004e1c                float2int
+                0x0000000010004e20       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004e20                float2int
  .text.__wrap___aeabi_f2uiz
-                0x0000000010004e30        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004e30                __wrap___aeabi_f2uiz
+                0x0000000010004e34        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004e34                __wrap___aeabi_f2uiz
  .text.__wrap___aeabi_f2d
-                0x0000000010004e3c       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004e3c                __wrap___aeabi_f2d
+                0x0000000010004e40       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004e40                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x0000000010004e50       0x64 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010004e50                __aeabi_float_init
+                0x0000000010004e54       0x64 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010004e54                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010004eb4       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010004eb4                float_table_shim_on_use_helper
+                0x0000000010004eb8       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004eb8                float_table_shim_on_use_helper
  .text.float232_shims
-                0x0000000010004ee0       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010004ee0                float2int_shim
-                0x0000000010004ee2                float2fix_shim
+                0x0000000010004ee4       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004ee4                float2int_shim
+                0x0000000010004ee6                float2fix_shim
  .text.float2double_shim
-                0x0000000010004ef8       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010004ef8                float2double_shim
+                0x0000000010004efc       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004efc                float2double_shim
  .text.__wrap_malloc
-                0x0000000010004f28       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x0000000010004f28                __wrap_malloc
+                0x0000000010004f2c       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000010004f2c                __wrap_malloc
  .text.__wrap_free
-                0x0000000010004f64       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x0000000010004f64                __wrap_free
- .text          0x0000000010004f84       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004f84                __aeabi_mem_init
- .text.memset   0x0000000010004f94        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004f94                __wrap_memset
- .text.memcpy   0x0000000010004fa0        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004fa0                __wrap___aeabi_memcpy
-                0x0000000010004fa0                __wrap_memcpy
+                0x0000000010004f68       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000010004f68                __wrap_free
+ .text          0x0000000010004f88       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004f88                __aeabi_mem_init
+ .text.memset   0x0000000010004f98        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004f98                __wrap_memset
+ .text.memcpy   0x0000000010004fa4        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004fa4                __wrap___aeabi_memcpy
+                0x0000000010004fa4                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010004fac       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004fb0       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010004fbc       0xb4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004fc0       0xb4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x0000000010005070       0x64 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010005074       0x64 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x00000000100050d4       0xfc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100050d8       0xfc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x00000000100051d0       0x98 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100051d0                __wrap_putchar
+                0x00000000100051d4       0x98 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100051d4                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010005268       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010005268                __wrap_puts
+                0x000000001000526c       0x3c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000526c                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x00000000100052a4       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100052a4                stdio_set_driver_enabled
+                0x00000000100052a8       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100052a8                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x00000000100052d4       0xd8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100052d4                __wrap_vprintf
+                0x00000000100052d8       0xd8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100052d8                __wrap_vprintf
  .text.__wrap_printf
-                0x00000000100053ac       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100053ac                __wrap_printf
+                0x00000000100053b0       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100053b0                __wrap_printf
  .text.stdio_init_all
-                0x00000000100053c4        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100053c4                stdio_init_all
+                0x00000000100053c8        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100053c8                stdio_init_all
  .text.resetd_init
-                0x00000000100053cc        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100053d0        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x00000000100053d0        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100053d4        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x00000000100053dc       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100053e0       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x0000000010005404        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010005408        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x0000000010005408       0x64 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000540c       0x64 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x000000001000546c        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x000000001000546c                usbd_app_driver_get_cb
+                0x0000000010005470        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010005470                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x0000000010005478       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010005478                tud_cdc_line_coding_cb
+                0x000000001000547c       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000547c                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x00000000100054ac       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100054ac                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x00000000100054c0       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100054b0       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100054b0                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x00000000100054c4       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x00000000100054d0       0x54 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100054d4       0x54 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x0000000010005524       0x90 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010005524                stdio_usb_in_chars
+                0x0000000010005528       0x90 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010005528                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x00000000100055b4      0x100 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100055b8      0x100 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x00000000100056b4       0xa8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100056b8       0xa8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x000000001000575c       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x000000001000575c                tud_cdc_rx_cb
+                0x0000000010005760       0x20 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010005760                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x000000001000577c       0xdc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x000000001000577c                stdio_usb_init
+                0x0000000010005780       0xdc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010005780                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x0000000010005858        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010005858                tud_descriptor_device_cb
+                0x000000001000585c        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000585c                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x0000000010005860        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010005860                tud_descriptor_configuration_cb
+                0x0000000010005864        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010005864                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x0000000010005868       0x74 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010005868                tud_descriptor_string_cb
+                0x000000001000586c       0x74 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000586c                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x00000000100058dc       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100058e0       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x00000000100058ec      0x1a8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x00000000100058ec                pico_get_unique_board_id_string
+                0x00000000100058f0      0x1a8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100058f0                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x0000000010005a94       0x40 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010005a94                flash_get_unique_id
+                0x0000000010005a98       0x40 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010005a98                flash_get_unique_id
  .text.dcd_int_enable
-                0x0000000010005ad4        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005ad4                dcd_int_enable
+                0x0000000010005ad8        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005ad8                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010005ae0       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005ae0                dcd_set_address
+                0x0000000010005ae4       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005ae4                dcd_set_address
  .text.dcd_connect
-                0x0000000010005af4       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005af4                dcd_connect
+                0x0000000010005af8       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005af8                dcd_connect
  .text.dcd_init
-                0x0000000010005b04       0x98 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005b04                dcd_init
+                0x0000000010005b08       0x98 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005b08                dcd_init
  .text.dcd_edpt0_status_complete
-                0x0000000010005b9c       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005b9c                dcd_edpt0_status_complete
+                0x0000000010005ba0       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005ba0                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000010005bb8      0x108 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005bb8                dcd_edpt_open
+                0x0000000010005bbc      0x108 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005bbc                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x0000000010005cc0        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005cc0                dcd_edpt_close_all
+                0x0000000010005cc4        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005cc4                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x0000000010005cc8       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005cc8                dcd_edpt_xfer
+                0x0000000010005ccc       0x24 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005ccc                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x0000000010005cec       0x38 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005cec                dcd_edpt_stall
+                0x0000000010005cf0       0x38 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005cf0                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x0000000010005d24       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005d24                dcd_edpt_clear_stall
+                0x0000000010005d28       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005d28                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x0000000010005d54       0x4c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005d54                rp2040_usb_init
+                0x0000000010005d58       0x4c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005d58                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x0000000010005da0       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005da0                hw_endpoint_xfer_start
+                0x0000000010005da4       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005da4                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x0000000010005df0       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005df0                tud_mounted
+                0x0000000010005df4       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005df4                tud_mounted
  .text.tud_suspended
-                0x0000000010005e00       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005e00                tud_suspended
+                0x0000000010005e04       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005e04                tud_suspended
  .text.tud_inited
-                0x0000000010005e10       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005e10                tud_inited
+                0x0000000010005e14       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005e14                tud_inited
  .text.tud_init
-                0x0000000010005e24       0xe4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005e24                tud_init
+                0x0000000010005e28       0xe4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005e28                tud_init
  .text.tud_task_ext
-                0x0000000010005f08      0x854 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005f08                tud_task_ext
+                0x0000000010005f0c      0x854 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005f0c                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x000000001000675c       0x9c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000675c                usbd_open_edpt_pair
+                0x0000000010006760       0x9c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006760                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x00000000100067f8       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100067f8                usbd_defer_func
+                0x00000000100067fc       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100067fc                usbd_defer_func
  .text.usbd_edpt_open
-                0x0000000010006840       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006840                usbd_edpt_open
+                0x0000000010006844       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006844                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000010006874       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006874                usbd_edpt_claim
+                0x0000000010006878       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006878                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x000000001000689c       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000689c                usbd_edpt_release
+                0x00000000100068a0       0x28 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100068a0                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x00000000100068c4       0x4c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100068c4                usbd_edpt_xfer
+                0x00000000100068c8       0x4c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100068c8                usbd_edpt_xfer
  .text.tud_control_status
-                0x0000000010006910       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006910                tud_control_status
+                0x0000000010006914       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006914                tud_control_status
  .text.tud_control_xfer
-                0x0000000010006940       0xbc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006940                tud_control_xfer
+                0x0000000010006944       0xbc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006944                tud_control_xfer
  .text.usbd_control_reset
-                0x00000000100069fc       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100069fc                usbd_control_reset
+                0x0000000010006a00       0x14 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006a00                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000010006a10        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006a10                usbd_control_set_complete_callback
+                0x0000000010006a14        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006a14                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010006a1c       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006a1c                usbd_control_set_request
+                0x0000000010006a20       0x1c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006a20                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x0000000010006a38       0xfc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006a38                usbd_control_xfer_cb
+                0x0000000010006a3c       0xfc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010006a3c                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x0000000010006b34       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006b34                tud_cdc_n_connected
+                0x0000000010006b38       0x30 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006b38                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x0000000010006b64       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006b64                tud_cdc_n_available
+                0x0000000010006b68       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006b68                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x0000000010006b7c       0x70 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006b7c                tud_cdc_n_read
+                0x0000000010006b80       0x70 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006b80                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010006bec       0x78 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006bec                tud_cdc_n_write_flush
+                0x0000000010006bf0       0x78 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006bf0                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x0000000010006c64       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006c64                tud_cdc_n_write
+                0x0000000010006c68       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006c68                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x0000000010006c98       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006c98                tud_cdc_n_write_available
+                0x0000000010006c9c       0x18 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006c9c                tud_cdc_n_write_available
  .text.cdcd_init
-                0x0000000010006cb0       0x7c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006cb0                cdcd_init
+                0x0000000010006cb4       0x7c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006cb4                cdcd_init
  .text.cdcd_reset
-                0x0000000010006d2c       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006d2c                cdcd_reset
+                0x0000000010006d30       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006d30                cdcd_reset
  .text.cdcd_open
-                0x0000000010006d58       0xe8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006d58                cdcd_open
+                0x0000000010006d5c       0xe8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006d5c                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x0000000010006e40       0xe4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006e40                cdcd_control_xfer_cb
+                0x0000000010006e44       0xe4 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006e44                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x0000000010006f24      0x148 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006f24                cdcd_xfer_cb
+                0x0000000010006f28      0x148 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006f28                cdcd_xfer_cb
  .text.tusb_init
-                0x000000001000706c        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x000000001000706c                tusb_init
+                0x0000000010007070        0xc CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010007070                tusb_init
  .text.tusb_inited
-                0x0000000010007078        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010007078                tusb_inited
+                0x000000001000707c        0x8 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x000000001000707c                tusb_inited
  .text.tu_edpt_claim
-                0x0000000010007080       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010007080                tu_edpt_claim
+                0x0000000010007084       0x50 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010007084                tu_edpt_claim
  .text.tu_edpt_release
-                0x00000000100070d0       0x38 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100070d0                tu_edpt_release
+                0x00000000100070d4       0x38 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100070d4                tu_edpt_release
  .text.tu_edpt_validate
-                0x0000000010007108       0x78 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010007108                tu_edpt_validate
+                0x000000001000710c       0x78 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x000000001000710c                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x0000000010007180       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010007180                tu_edpt_bind_driver
+                0x0000000010007184       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010007184                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x00000000100071b4       0x70 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100071b4                tu_fifo_config
+                0x00000000100071b8       0x70 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100071b8                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000010007224       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007224                tu_fifo_count
+                0x0000000010007228       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007228                tu_fifo_count
  .text.tu_fifo_empty
-                0x0000000010007250       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007250                tu_fifo_empty
+                0x0000000010007254       0x10 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007254                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x0000000010007260       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007260                tu_fifo_remaining
+                0x0000000010007264       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007264                tu_fifo_remaining
  .text.tu_fifo_read
-                0x000000001000728c       0xa0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000728c                tu_fifo_read
+                0x0000000010007290       0xa0 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007290                tu_fifo_read
  .text.tu_fifo_read_n
-                0x000000001000732c       0xec CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000732c                tu_fifo_read_n
+                0x0000000010007330       0xec CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010007330                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000010007418       0x88 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007418                tu_fifo_write
+                0x000000001000741c       0x88 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000741c                tu_fifo_write
  .text.tu_fifo_write_n
-                0x00000000100074a0      0x168 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100074a0                tu_fifo_write_n
+                0x00000000100074a4      0x168 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100074a4                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x0000000010007608       0x40 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007608                tu_fifo_clear
+                0x000000001000760c       0x40 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000760c                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000010007648       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007648                tu_fifo_set_overwritable
+                0x000000001000764c       0x48 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000764c                tu_fifo_set_overwritable
  .text.vPortSVCHandler
-                0x0000000010007690        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010007690                vPortSVCHandler
- *fill*         0x0000000010007694        0xc 
+                0x0000000010007694        0x4 CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010007694                vPortSVCHandler
+ *fill*         0x0000000010007698        0x8 
  .text.vPortStartFirstTask
                 0x00000000100076a0       0x34 CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/RP2040/port.c.obj
  *fill*         0x00000000100076d4        0xc 
@@ -3188,7 +3188,7 @@ LOAD CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src
 LOAD CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 LOAD CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-LOAD /tmp/ccytvAtZ.o
+LOAD /tmp/ccTy3zlQ.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3322,7 +3322,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000934       0x2c CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .ARM.attributes
-                0x0000000000000960       0x22 /tmp/ccytvAtZ.o
+                0x0000000000000960       0x22 /tmp/ccTy3zlQ.o
  .ARM.attributes
                 0x0000000000000982       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

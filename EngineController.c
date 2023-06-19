@@ -360,7 +360,7 @@ void uart_task2_receive(void *pvParameters) {
                 continue;
             }
             // If not numeric, reset
-            if (current_char < '0' || current_char > '9') {
+            if ( (current_char < '0' || current_char > '9') && current_char != '-') {
                 i = 0;
                 continue;
             }
