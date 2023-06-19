@@ -33,7 +33,7 @@ pico_enable_stdio_uart(EngineController 0)
 pico_enable_stdio_usb(EngineController 1)
 
 # Add the standard library to the build
-target_link_libraries(EngineController pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4 hardware_gpio hardware_adc hardware_pwm)
+target_link_libraries(EngineController pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4 hardware_gpio hardware_adc hardware_pwm hardware_i2c)
 
 pico_add_extra_outputs(EngineController)
 

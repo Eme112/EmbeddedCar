@@ -1178,6 +1178,20 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
+CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/EngineController.dir/flags.make
+CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/EngineController.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 # Object files for target EngineController
 EngineController_OBJECTS = \
 "CMakeFiles/EngineController.dir/EngineController.c.obj" \
@@ -1259,7 +1273,8 @@ EngineController_OBJECTS = \
 "CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj" \
 "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
 "CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
-"CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+"CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" \
+"CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 
 # External object files for target EngineController
 EngineController_EXTERNAL_OBJECTS =
@@ -1344,10 +1359,11 @@ EngineController.elf: CMakeFiles/EngineController.dir/home/emerico/Documents/Sis
 EngineController.elf: CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 EngineController.elf: CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 EngineController.elf: CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+EngineController.elf: CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 EngineController.elf: CMakeFiles/EngineController.dir/build.make
 EngineController.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 EngineController.elf: CMakeFiles/EngineController.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking CXX executable EngineController.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX executable EngineController.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EngineController.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/emerico/Documents/SistemasEmbebidos/FinalProject/build/EngineController.elf EngineController.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/emerico/Documents/SistemasEmbebidos/FinalProject/build/EngineController.elf EngineController.bin

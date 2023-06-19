@@ -64,18 +64,19 @@ CMakeFiles/EngineController.dir/EngineController.c.obj: \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/semphr.h \
  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h \
  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h \
- /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h
+ /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+ /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h

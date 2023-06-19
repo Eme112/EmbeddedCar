@@ -1247,6 +1247,30 @@ home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineController.dir/build.make CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
+home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+
+# target to build an object file
+home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineController.dir/build.make CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineController.dir/build.make CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineController.dir/build.make CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
@@ -2096,6 +2120,9 @@ help:
 	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj"
+	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"

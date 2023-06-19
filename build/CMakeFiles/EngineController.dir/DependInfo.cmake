@@ -126,6 +126,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_exception/include"
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
+  "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -173,6 +174,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" "gcc" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d"
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
   "/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"

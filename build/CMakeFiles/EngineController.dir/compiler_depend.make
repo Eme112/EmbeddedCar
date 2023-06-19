@@ -82,21 +82,22 @@ CMakeFiles/EngineController.dir/EngineController.c.obj: ../EngineController.c \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/semphr.h \
   /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h \
   /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
   /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h \
-  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h
+  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h
 
 CMakeFiles/EngineController.dir/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/croutine.c.obj: /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/croutine.c \
   /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
@@ -2240,6 +2241,53 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
 
+CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  ../FreeRTOSConfig.h \
+  /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h
+
 CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c \
   /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_base/include/pico.h \
@@ -3570,6 +3618,8 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
 
+/usr/include/newlib/sys/stat.h:
+
 /home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
@@ -3614,11 +3664,11 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
 
+/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
+
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
-
-/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/mutex.c:
 
@@ -3629,8 +3679,6 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
 
 /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/RP2040/port.c:
-
-/usr/include/newlib/sys/times.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
@@ -3716,8 +3764,6 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
 
 /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:
 
-/usr/include/newlib/sys/stat.h:
-
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
 
 /usr/include/newlib/sys/_stdint.h:
@@ -3774,6 +3820,10 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
 
+/usr/include/newlib/c++/10.3.1/bits/std_abs.h:
+
+/usr/include/newlib/machine/_default_types.h:
+
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h:
@@ -3797,8 +3847,6 @@ CMakeFiles/EngineController.dir/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_
 generated/pico_base/pico/version.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
-
-/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
 
 /home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:
 
@@ -3831,6 +3879,12 @@ generated/pico_base/pico/version.h:
 /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_usb_reset_interface/include/pico/usb_reset_interface.h:
 
 /usr/include/newlib/time.h:
+
+/usr/include/newlib/c++/10.3.1/stdlib.h:
+
+/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:
+
+/usr/include/newlib/assert.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
 
@@ -3908,6 +3962,8 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
 
+/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+
 /home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c:
 
 /home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/device/dcd.h:
@@ -3968,15 +4024,11 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
-/home/emerico/Documents/SistemasEmbebidos/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:
-
-/usr/include/newlib/assert.h:
-
-/usr/include/newlib/c++/10.3.1/stdlib.h:
-
 /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+
+/home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_time/timeout_helper.c:
 
@@ -4036,6 +4088,14 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
+/home/emerico/Documents/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
+
+/home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+/usr/include/newlib/sys/times.h:
+
+/home/emerico/Documents/pi/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
 
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
@@ -4089,7 +4149,3 @@ generated/pico_base/pico/config_autogen.h:
 /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
 /usr/include/newlib/c++/10.3.1/cstdlib:
-
-/usr/include/newlib/machine/_default_types.h:
-
-/usr/include/newlib/c++/10.3.1/bits/std_abs.h:
