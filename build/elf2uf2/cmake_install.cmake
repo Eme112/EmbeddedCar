@@ -1,4 +1,4 @@
-# Install script for directory: /home/emerico/Documents/pi/pico/pico-sdk/tools/elf2uf2
+# Install script for directory: /home/jose/pico/pico-sdk/tools/elf2uf2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/elf2uf2/boot_uf2_headers/cmake_install.cmake")
+  include("/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/elf2uf2/boot_uf2_headers/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/elf2uf2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/elf2uf2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

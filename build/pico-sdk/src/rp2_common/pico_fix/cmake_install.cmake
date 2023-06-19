@@ -1,4 +1,4 @@
-# Install script for directory: /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/pico_fix
+# Install script for directory: /home/jose/pico/pico-sdk/src/rp2_common/pico_fix
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
+  include("/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
 
 endif()
 

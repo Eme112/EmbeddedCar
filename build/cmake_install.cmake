@@ -1,4 +1,4 @@
-# Install script for directory: /home/emerico/Documents/SistemasEmbebidos/FinalProject
+# Install script for directory: /media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/FREERTOS_KERNEL/cmake_install.cmake")
-  include("/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pico-sdk/cmake_install.cmake")
+  include("/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/FREERTOS_KERNEL/cmake_install.cmake")
+  include("/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

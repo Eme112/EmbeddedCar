@@ -1,4 +1,4 @@
-# Install script for directory: /home/emerico/Documents/pi/pico/pico-sdk
+# Install script for directory: /home/jose/pico/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pico-sdk/tools/cmake_install.cmake")
-  include("/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pico-sdk/src/cmake_install.cmake")
-  include("/home/emerico/Documents/SistemasEmbebidos/FinalProject/build/pico-sdk/docs/cmake_install.cmake")
+  include("/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/pico-sdk/tools/cmake_install.cmake")
+  include("/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/pico-sdk/src/cmake_install.cmake")
+  include("/media/jose/BAA21AD5A21A95CB/Documentos/TEC/10semestre/embebidos/Proyecto_Final/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/emerico/Documents/pi/pico/pico-sdk/src/common/pico_binary_info
+# Install script for directory: /home/jose/pico/pico-sdk/src/common/pico_binary_info
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/emerico/Documents/pi/pico/pico-sdk/src/rp2_common/hardware_pwm
+# Install script for directory: /home/jose/pico/pico-sdk/src/rp2_common/hardware_pwm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
